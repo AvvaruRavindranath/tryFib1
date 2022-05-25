@@ -1,12 +1,10 @@
 package com.example.tryfib1
 
-import androidx.appcompat.app.AppCompatActivity
-import android.widget.CalendarView
-import android.widget.TextView
 import android.os.Bundle
 import android.view.View
-import com.example.tryfib1.R
-import android.widget.CalendarView.OnDateChangeListener
+import android.widget.CalendarView
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 /***************************************************************
  *
@@ -30,5 +28,9 @@ class F : AppCompatActivity() {
             myDate = i2.toString() + "/" + (i1 + 1) + "/" + i
         }
     }
+
+
 }
+
+
 

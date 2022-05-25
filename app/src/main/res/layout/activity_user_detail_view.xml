@@ -8,6 +8,9 @@
     android:orientation="vertical"
     tools:context=".userDetailView">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <LinearLayout
         android:id="@+id/bloodRequestView"
         android:layout_width="match_parent"
@@ -46,6 +49,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Hospital Name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Level"/>
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SeekBar"/>
 
         <Button
             android:id="@+id/getlocation_of_Recipient"
@@ -118,6 +130,7 @@
             android:text="Get Donors" />
 
         </LinearLayout>
+    </ScrollView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/Recipient_Details"

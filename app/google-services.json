@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "396159369383",
+    "firebase_url": "https://tryfib1-default-rtdb.firebaseio.com",
     "project_id": "tryfib1",
     "storage_bucket": "tryfib1.appspot.com"
   },

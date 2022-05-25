@@ -20,7 +20,7 @@ class Home : AppCompatActivity() {
 
 
         gohome.setOnClickListener{
-            startActivity(Intent(this,Home::class.java))
+            startActivity(Intent(this,MainActivity2::class.java))
         }
         regbtn.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))
